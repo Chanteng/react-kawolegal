@@ -1,0 +1,20 @@
+.con {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/src/Images/it.jpg) ;
+  height: 80vh;
+}
+
+.txt {
+color: white;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 250px;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
