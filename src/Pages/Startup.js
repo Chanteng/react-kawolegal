@@ -1,9 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 function Startup() {
   return (
     <>
+    <Header />
       <Container>
         <Row>
            <Col>
@@ -48,6 +51,7 @@ function Startup() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 }

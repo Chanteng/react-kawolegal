@@ -1,11 +1,13 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { Link } from "react-router-dom"
+import Header from "../Components/Header"
+import Footer from "../Components/Footer"
 
 
  function Register() {
     return (
         <>
+		<Header />
         <Container >
           <Row>
             <Col>
@@ -39,6 +41,7 @@ import { Link } from "react-router-dom"
             </Col>
           </Row>
         </Container>
+		<Footer />
         </>
     )
 }

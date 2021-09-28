@@ -1,12 +1,13 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
-
+import Header from "../Components/Header"
+import Footer from "../Components/Footer"
 
 
  function Login() {
     return (
         <>
-
+            <Header />
         <Container>
             <Row>
                 <Col>
@@ -27,7 +28,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
                 </Col>
             </Row>
         </Container>
-
+        <Footer />
         </>
     )
 }

@@ -1,10 +1,13 @@
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
+import Header from "../Components/Header"
+import Footer from "../Components/Footer"
 
 
 function Home() {
   return (
     <>
+    <Header />
     <Container className="con">
         <Row>
     <div className="txt">
@@ -15,6 +18,7 @@ function Home() {
       </div>
       </Row>
       </Container>
+      <Footer />
     </>
   );
 }
