@@ -21,7 +21,7 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav"  >
             <Nav className="me-auto header-text">
               <Nav.Link href="/" target="_blank">Home</Nav.Link>
-              <Nav.Link href="/startup" target="_blank">Startup</Nav.Link>
+              <Nav.Link href="/startup"target="_blank"  >Startup</Nav.Link>
               <Nav.Link href="/register" target="_blank">Register</Nav.Link>
               <Nav.Link href="/login" target="_blank">Login</Nav.Link>
             </Nav>
