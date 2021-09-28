@@ -1,0 +1,223 @@
+.hero-image {
+    background-image: linear-gradient(rgba(73, 0, 0, 0.7), rgba(73, 0, 0, 0.7)),
+      url(../Images/xps.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+  }
+
+.header-info {
+    background-color: none;
+}
+
+nav ul {
+    font-size: 20px;
+    margin-right: 50px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  ul li a {
+    color: rgb(175, 6, 0);
+  }
+  
+  ul li a:hover {
+    text-decoration: none;
+    color: white
+  }
+
+  
+.home-txt h1 {
+    color: #fff;
+    font-size: 30px;
+    transform: translate(0, 9rem);
+  }
+  
+  .home-txt h1 {
+    font-size: 50px;
+    font-weight: lighter;
+  }
+  
+  .home-txt p {
+    font-size: 30px;
+    color: #fff;
+    transform: translate(0, 9rem);
+    line-height: 2rem;
+  }
+
+  .home-bttn {
+      position: absolute;
+      top: 400px;
+      left: 600px;
+  }
+  
+  .active-link {
+    border: 3px solid rgb(175, 6, 0);
+  }
+
+.footer-info {
+    color: white;
+    margin-top: 2rem;
+    background-color: rgb(73, 0, 0);
+    padding: 30px;
+    font-size: 50px;
+}
+
+.bi-facebook {
+    position: absolute;
+    top: 750px;
+    right: 350px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.bi-twitter {
+    position: absolute;
+    right: 300px;
+    top: 750px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.bi-linkedin {
+    position: absolute;
+    right: 250px;
+    top: 750px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.bi-instagram {
+    position: absolute;
+    right: 200px;
+    top: 750px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.startup-fb {
+    position: absolute;
+    right: 350px;
+    top: 780px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.startup-tw {
+    position: absolute;
+    right: 300px;
+    top: 780px;
+    height: 3vh;
+    width: 3vh;   
+}
+
+.startup-ig {
+    position: absolute;
+    right: 200px;
+    top: 780px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.register-fb {
+    position: absolute;
+    right: 350px;
+    top: 630px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.register-tw {
+    position: absolute;
+    right: 300px;
+    top: 630px;
+    height: 3vh;
+    width: 3vh; 
+}
+
+.register-lin {
+    position: absolute;
+    right: 250px;
+    top: 630px;
+    height: 3vh;
+    width: 3vh; 
+}
+
+.register-ig {
+    position: absolute;
+    right: 200px;
+    top: 630px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.login-fb {
+    position: absolute;
+    right: 350px;
+    top: 470px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.login-ig {
+    position: absolute;
+    right: 200px;
+    top: 470px;
+    height: 3vh;
+    width: 3vh;
+}
+
+.login-lin {
+    position: absolute;
+    right: 250px;
+    top: 470px;
+    height: 3vh;
+    width: 3vh; 
+}
+
+.login-tw {
+    position: absolute;
+    right: 300px;
+    top: 470px;
+    height: 3vh;
+    width: 3vh; 
+}
+
+.startup-lin {
+    position: absolute;
+    right: 250px;
+    top: 780px;
+    height: 3vh;
+    width: 3vh; 
+}
+
+.startup-header {
+    background-color: rgb(73, 0, 0);
+}
+
+.startup-srh {
+    margin-top: 2rem;
+}
+
+.startup-img {
+    margin: 2rem;
+}
+
+.txt {
+    margin: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 40px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
